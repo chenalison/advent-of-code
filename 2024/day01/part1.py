@@ -4,7 +4,7 @@ import math
 left = []
 right = []
 
-with open("day1/input", "r") as fd:
+with open("day01/input", "r") as fd:
     for line in fd:
         left.append(int(line.split()[0]))
         right.append(int(line.split()[1]))

@@ -2,7 +2,7 @@ import re
 
 instructions = ""
 
-with open("day3/input", "r") as fd:
+with open("day03/input", "r") as fd:
     for line in fd:
         instructions += line
 

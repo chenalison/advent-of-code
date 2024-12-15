@@ -1,4 +1,3 @@
-
 def evaluateEq(target, numlist):
     results = [int(numlist[0])]
     for i in range(1,len(numlist)):
@@ -14,7 +13,7 @@ def evaluateEq(target, numlist):
 lines = []
 count = 0
 
-with open("day7/input", "r") as fd:
+with open("day07/input", "r") as fd:
     for line in fd:
         target, numbers = line.split(":")
         numlist = numbers.split()

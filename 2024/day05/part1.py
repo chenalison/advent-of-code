@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-with open("day5/input", "r") as fd:
+with open("day05/input", "r") as fd:
     rules, updates = fd.read().split('\n\n')
     rules = rules.split()
     updates = updates.split()

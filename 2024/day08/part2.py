@@ -3,7 +3,7 @@ from collections import defaultdict
 empty = []
 grid = []
 
-with open("day8/input", "r") as fd:
+with open("day08/input", "r") as fd:
     for line in fd:
         grid.append(list(line.strip()))
         empty.append(list('.'*len(line.strip())))

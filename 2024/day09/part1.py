@@ -1,6 +1,6 @@
 diskmap = ""
 
-with open("day9/input", "r") as fd:
+with open("day09/input", "r") as fd:
     diskmap = fd.read().strip()
 
 id = 0

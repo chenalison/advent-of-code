@@ -1,4 +1,3 @@
-
 def searchLeft(grid, row, col):
     if col-3 >= 0 and \
         grid[row][col-1] == 'M' and \
@@ -72,7 +71,7 @@ def gridsearch(grid, row, col):
 
 grid = []
 
-with open("day4/input", "r") as fd:
+with open("day04/input", "r") as fd:
     for line in fd:
         grid.append(line.strip())
 

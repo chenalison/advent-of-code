@@ -8,7 +8,7 @@ def gridsearch(grid, row, col):
 
 grid = []
 
-with open("day4/input", "r") as fd:
+with open("day04/input", "r") as fd:
     for line in fd:
         grid.append(line.strip())
 

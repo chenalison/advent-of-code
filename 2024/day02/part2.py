@@ -1,5 +1,3 @@
-
-
 def removeLevel(report, idx):
     newreport = report[:idx] + report[idx+1:]
     return isIncrease(newreport, True)
@@ -21,7 +19,7 @@ def isDecrease(report):
 
 count = 0
 
-with open("day2/input", "r") as fd:
+with open("day02/input", "r") as fd:
     for line in fd:
         report = line.split()
         if isIncrease(report) or isDecrease(report):
