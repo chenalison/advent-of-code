@@ -49,7 +49,7 @@ def countNeighbors(grid, row, col):
                 vis[adjx][adjy] = True
     return neighbors
 
-# find the largest cluster
+# find the largest cluster idea from reddit
 def isTree(grid):
     count = 0
     for i in range(len(grid)):

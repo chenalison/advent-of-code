@@ -7,6 +7,8 @@ with open("day11/input", "r") as fd:
 
 stones = [int(item) for item in stones]
 stonesFreq = {key: 1 for key in stones}
+# switch to dict since I kept seeing it mentioned on reddit
+# order does NOT matter
 
 blinks = 75
 for i in range(blinks):
