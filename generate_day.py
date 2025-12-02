@@ -11,7 +11,7 @@ while True:
 
 while True:
     day = input("Enter day as 2 digit (01, 10): ")
-    if day.isdigit():
+    if day.isdigit() and len(day) < 2:
         day = day.rjust(2, "0")
         break
 
@@ -23,5 +23,6 @@ files = ['input', 'part1.py', 'part2.py']
 for file in files:
     with open(os.path.join(basepath, file), 'a') as f:
         pass
+
 
 print("Folder and files created for", year, "day", day)
